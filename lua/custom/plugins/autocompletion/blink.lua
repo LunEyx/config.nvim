@@ -119,9 +119,6 @@ return {
       --
       -- See the fuzzy documentation for more information
       fuzzy = { implementation = 'lua' },
-      signature = {
-        enabled = true,
-      },
       cmdline = {
         enabled = true,
         keymap = {
@@ -146,9 +143,6 @@ return {
           window = {
             border = 'rounded',
           },
-        },
-        ghost_text = {
-          enabled = true,
         },
         list = {
           selection = {

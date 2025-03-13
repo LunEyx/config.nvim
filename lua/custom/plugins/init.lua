@@ -4,12 +4,9 @@
 -- See the kickstart.nvim README for more information
 return {
   require 'custom.plugins.autocompletion.blink',
+  require 'custom.plugins.autocompletion.copilot',
+  require 'custom.plugins.autocompletion.autotag',
+  require 'custom.plugins.lsp.gdscript',
   require 'custom.plugins.ui.noice',
   require 'custom.plugins.ui.snacks',
-  require 'custom.plugins.hop',
-  require 'custom.plugins.oil',
-  require 'custom.plugins.autocompletion.copilot',
-  require 'custom.plugins.csvview',
-  require 'custom.plugins.diffview',
-  require 'custom.plugins.trouble',
 }
